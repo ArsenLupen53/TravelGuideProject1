@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+  
+  header {
+    background-color: #333;
+    width:100%;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  
+  nav ul li {
+    display: inline;
+  
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .places{
+    margin-bottom:150px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /*Blog post csss*/
+  .blog {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .blog h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .blog .post {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .blog .post img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .blog .post-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .blog .post-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog .post-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .blog .post-content .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blog .post-content .btn:hover {
+    background-color: #555;
+  }
+  
+  
+  
+  /*About us css*/
+  .about-us {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .about-us .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-us .btn:hover {
+    background-color: #555;
+  }
+  
+  /*communication css*/
+  .communication {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .communication h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .communication .name,
+  .communication .email,
+  .communication .message {
+    margin-bottom: 20px;
+  }
+  
+  .communication label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .communication input[type="text"],
+  .communication textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .communication textarea {
+    height: 150px;
+  }
+  
+  .communication button[type="submit"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .communication button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  
+  /*Home page css*/
+  
+  .home-page {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .home-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .home-page h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  /*destinatons css*/
+  .destinations {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .destinations h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-right: 30px
+  }
+  
+  .destinations .places {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .destinations .places img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .destinations .places {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .destinations .places h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+  }
+  
+  .destinations .places p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
