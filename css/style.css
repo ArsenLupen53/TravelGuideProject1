@@ -11,6 +11,7 @@ header {
   color: #fff;
   padding: 13px;
   position: fixed;
+  text-align: center;
 
 }
 
@@ -43,6 +44,7 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .places{
@@ -286,5 +288,4 @@ html {
   margin-bottom: 20px;
   font-family: "Open Sans", sans-serif;
 }
-
 
